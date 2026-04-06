@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: Council Tavily Search
 description: AI-optimized web search for Council Room agents. Returns clean results agents can use directly — no HTML parsing, no scraping. Uses the Tavily API key already configured in the Council Room backend. Use when Metis needs live web research, Gabriel monitors competitors, or any agent needs current information.
@@ -41,3 +45,13 @@ Key: `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`
 - Gabriel 📣 — monitor Mekari, Paper.id, Ledgerowl, Accurate
 - Michael 🛡️ — risk signal scanning
 - Rafael 🧭 — strategic context gathering
+
+## Installation
+
+```bash
+cp -r council-tavily/ ~/.openclaw/workspace/skills/council-tavily/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
